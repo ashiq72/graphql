@@ -79,7 +79,39 @@ const categories = [
   },
 ];
 
+const reviews = [
+  {
+    id: "1",
+    productId: "1",
+    userId: "1",
+    rating: 5,
+    comment: "Great product!",
+  },
+  {
+    id: "2",
+    productId: "1",
+    userId: "2",
+    rating: 4,
+    comment: "Very good, but could be better.",
+  },
+  {
+    id: "3",
+    productId: "2",
+    userId: "1",
+    rating: 3,
+    comment: "It's okay.",
+  },
+  {
+    id: "4",
+    productId: "3",
+    userId: "3",
+    rating: 2,
+    comment: "Not what I expected.",
+  },
+];
+
 export const db = {
   products,
   categories,
+  reviews,
 };
